@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-22T02:51:57.581Z" agent="5.0 (Windows)" etag="cAe4zTUTJjZoGAjCceFo" version="17.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-22T03:30:07.345Z" agent="5.0 (Windows)" etag="x493teFMDaAqPzdrnNoq" version="17.1.3" type="github">
   <diagram id="HK1vYaXFGeP86o5CCqgt" name="第 1 页">
-    <mxGraphModel dx="2391" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCFFE6" math="0" shadow="1">
+    <mxGraphModel dx="1747" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCFFE6" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -135,6 +135,21 @@
         </mxCell>
         <mxCell id="fpfwsOFUmYjliimoV7OF-22" value="send_cnt == data_num" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="-160" y="100" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fpfwsOFUmYjliimoV7OF-23" value="&lt;div&gt;enable ==1&lt;/div&gt;&lt;div&gt;uart_in &amp;lt;= uart_data[15:8]&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FF3355;" vertex="1" parent="1">
+          <mxGeometry x="560" y="60" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fpfwsOFUmYjliimoV7OF-24" value="&lt;div&gt;enable == 1&lt;/div&gt;&lt;div&gt;uart_in &amp;lt;= uart_data[7:0]&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="270" y="370" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fpfwsOFUmYjliimoV7OF-25" value="&lt;div&gt;enable == 0&lt;/div&gt;&lt;div&gt;uart_in &amp;lt;= 0&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="540" y="370" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fpfwsOFUmYjliimoV7OF-26" value="&lt;div&gt;enable == 0&lt;/div&gt;&lt;div&gt;uart_in &amp;lt;= 0&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="30" y="60" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fpfwsOFUmYjliimoV7OF-28" value="&lt;div&gt;enable == 0&lt;/div&gt;&lt;div&gt;uart_in &amp;lt;= 0&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="240" y="65" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
